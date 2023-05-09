@@ -25,7 +25,6 @@ const countNumbers = (array) => {
     // TODO...3
     for (let i = 0; i < array.length; i++) {
         if (typeof(array[i]) === 'number')  numberCounter++;
-    console.log (typeof(array[i]));
    }
     return numberCounter;
 }
