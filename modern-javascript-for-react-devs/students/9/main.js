@@ -116,13 +116,23 @@ const longestString = (array) => {
 
 console.log(longestString(array));
 
+//Exercise 7
+    let n = [1, 3, 6, 3, 6, 10];
+  n.sort(function(a,b){return a-b});
+  console.log(n)
+
+
+
 
 const main = async () => {
     //ex1();
     // ex2();
     // ex3();
     // ex4()
-       ex5()
+    // ex5()
+    //ex6()
+    //ex7()
+
 }
 
 
