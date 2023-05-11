@@ -124,9 +124,12 @@ console.log(longestString(array));
 //Exercise 8
 // create a variable that holds a string "Count the words in this string".
 // create countwords function and let that be a string
-//split words from  string, words appear between quotes
+// split words from  string, words appear between quotes
 // initialize count at 0, first position 
-// let index (i) be 0, 
+// let index (i) be 0, if index 1st position)
+// count through all elements of the string, only elements within quotations, do not count spaces
+// if i is not a space, increment count
+// return number of strings
 let words = "Count the words in this string";
 const countWords = (str) => {
     const words = str.split(' ');
