@@ -121,7 +121,25 @@ console.log(longestString(array));
   n.sort(function(a,b){return a-b});
   console.log(n)
 
+//Exercise 8
+// create a variable that holds a string "Count the words in this string".
+// create countwords function and let that be a string
+//split words from  string, words appear between quotes
+// initialize count at 0, first position 
+// let index (i) be 0, 
+let words = "Count the words in this string";
+const countWords = (str) => {
+    const words = str.split(' ');
+    let count  = 0;
+    for (let i = 0; i < words.length; i++) {
+        if (words[i] !== '') {
+          count++;
+        }
+      }
+      return count;
+    };
 
+console.log(countWords(words));
 
 
 const main = async () => {
